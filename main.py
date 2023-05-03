@@ -7,8 +7,9 @@ from prepare_isw import prepare_isw
 def prepare_dataset():
     prepare_weather()
     prepare_events()
-    merge_data()
     prepare_isw()
+    merge_data()
+    
 
 
 if __name__ == "__main__":
